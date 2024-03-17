@@ -5,6 +5,8 @@ on:
     branches:
       - develop
 
+permissions: write-all
+
 jobs:
   createPullRequest:
     runs-on: ubuntu-latest

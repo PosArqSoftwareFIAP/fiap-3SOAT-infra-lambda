@@ -1,9 +1,11 @@
-name: Terraform Deploy on Merge to Main
+name: Deploy on Merge to Main
 
 on:
   push:
     branches:
       - main
+
+permissions: write-all
 
 jobs:
   terraformDeploy:
